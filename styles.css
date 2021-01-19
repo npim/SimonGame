@@ -4,7 +4,7 @@ body {
 #level-title{
   font-family: 'Sigmar One', cursive;
   text-align: center;
-  font-size: 8rem;
+  font-size: 3rem;
   color: #f3f3f3;
 }
 
@@ -22,7 +22,7 @@ h3 {
 
 .start-button {
   padding: 10%;
-  font-size: 3rem;
+  font-size: 20%;
   font-weight: bold;
   color: black;
   background-color: #fff;
