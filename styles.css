@@ -76,3 +76,16 @@ h3 {
   background-color: red;
   opacity: 0.8;
 }
+
+@media (max-width: 1080px) {
+  #level-title{
+    font-size: 3rem;
+  }
+  .start-button{
+    font-size: 2.5rem;
+    padding: 3%;
+  }
+  .btn{
+    padding: 20%;
+  }
+}
