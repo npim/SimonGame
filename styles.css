@@ -79,7 +79,7 @@ h3 {
   opacity: 0.8;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1100px) {
   #level-title{
     font-size: 5rem;
   }
