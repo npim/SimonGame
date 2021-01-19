@@ -83,7 +83,7 @@ function nextSequence(){
 
 //PLAY SOUND
 function playSound(color){
-  var audio = new Audio ('sounds/'+color+'.mp3');
+  var audio = new Audio ('/SimonGame/sounds/'+color+'.mp3');
   audio.play();
 }
 
