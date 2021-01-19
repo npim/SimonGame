@@ -51,7 +51,7 @@ function checkAnswer(currentLevel) {
   else{
     playSound("wrong");
     $("body").addClass("game-over");
-    $("#level-title").html("😭😭😭GAME OVER😭😭😭");
+    $("#level-title").html("😭GAME OVER😭");
     $(".restart").show();
     $(".start").hide();
     $(".btn").attr("disabled","disabled");
