@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <h1 id="level-title">PRESS THE START BUTTON TO PLAY.</h1>
+    <div class="button-container">
+      <button type="button" name="button" class="start-button start">START</button>
+      <button type="button" name="button" class="start-button restart" hidden>RESTART</button>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <button type="button" name="button" class="btn red" id="red" disabled></button>
+        <button type="button" name="button" class="btn green" id="green" disabled></button>
+      </div>
+      <div class="row">
+        <button type="button" name="button" class="btn blue" id="blue" disabled></button>
+        <button type="button" name="button" class="btn yellow" id="yellow" disabled></button>
+      </div>
+    </div>
+    <!-- JQUERY CDN AND EXTERNAL JAVASCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="game.js"></script>
+  </body>
+
+</html>
