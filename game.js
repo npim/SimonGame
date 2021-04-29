@@ -3,7 +3,7 @@ var colour = ["red","green","blue","yellow"];
 
 var started = false;
 var level = 0;
-
+//test test this is comment
 var userClickedPattern = [];
 var gamePattern = [];
 
